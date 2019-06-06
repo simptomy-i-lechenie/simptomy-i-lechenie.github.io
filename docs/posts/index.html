@@ -9,14 +9,14 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Working with Posts - Minimal Mistakes</title>
+<!-- begin _includes/seo.html --><title>Working with Posts - Симптомы и лечение</title>
 <meta name="description" content="Suggestions and Front Matter defaults for working with posts.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="ru_RU">
-<meta property="og:site_name" content="Minimal Mistakes">
+<meta property="og:site_name" content="Симптомы и лечение">
 <meta property="og:title" content="Working with Posts">
 <meta property="og:url" content="http://localhost:4000/docs/posts/">
 
@@ -45,11 +45,11 @@
 
 
 
-  <meta property="article:published_time" content="2019-06-05T12:41:33+00:00">
+  <meta property="article:published_time" content="2019-06-06T07:34:26-04:00">
 
 
 
-  <meta property="article:modified_time" content="2018-03-20T19:59:57+00:00">
+  <meta property="article:modified_time" content="2018-03-20T15:59:57-04:00">
 
 
 
@@ -96,7 +96,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Minimal Mistakes Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Симптомы и лечение Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -146,7 +146,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <a class="site-title" href="/">Minimal Mistakes</a>
+        <a class="site-title" href="/">Симптомы и лечение</a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/docs/quick-start-guide/" >Статьи</a>
             </li><li class="masthead__menu-item">
@@ -156,7 +156,7 @@
             </li><li class="masthead__menu-item">
               <a href="/collection-archive/" >Sample Collections</a>
             </li><li class="masthead__menu-item">
-              <a href="/terms/" >Terms &amp; Privacy Policy</a>
+              <a href="/legal/terms/" >Terms &amp; Privacy Policy</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -219,88 +219,7 @@
 
 
 <div id="main" role="main">
-
-
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Working with Posts">
-    <meta itemprop="description" content="Suggestions and Front Matter defaults for working with posts.">
-    <meta itemprop="datePublished" content="June 05, 2019">
-    <meta itemprop="dateModified" content="March 20, 2018">
-
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Working with Posts
-</h1>
-          
-        </header>
-      
-
-      <section class="page__content" itemprop="text">
-        
-        <p>Posts are stored in the <code class="highlighter-rouge">_posts</code> directory and named according to the <code class="highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code> format as per <a href="https://jekyllrb.com/docs/posts/">the usual</a>.</p>
-
-<p>Where <code class="highlighter-rouge">YEAR</code> is a four-digit number, <code class="highlighter-rouge">MONTH</code> and <code class="highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. For example, the following are examples of valid post filenames:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2016-07-20-writing-jekyll-posts.md
-2015-01-03-static-site-generators.markdown
-</code></pre></div></div>
-
-<p><strong>Recommended Front Matter Defaults:</strong></p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">defaults</span><span class="pi">:</span>
-  <span class="c1"># _posts</span>
-  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
-      <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
-      <span class="na">type</span><span class="pi">:</span> <span class="s">posts</span>
-    <span class="na">values</span><span class="pi">:</span>
-      <span class="na">layout</span><span class="pi">:</span> <span class="s">single</span>
-      <span class="na">author_profile</span><span class="pi">:</span> <span class="no">true</span>
-      <span class="na">read_time</span><span class="pi">:</span> <span class="no">true</span>
-      <span class="na">comments</span><span class="pi">:</span> <span class="no">true</span>
-      <span class="na">share</span><span class="pi">:</span> <span class="no">true</span>
-      <span class="na">related</span><span class="pi">:</span> <span class="no">true</span>
-</code></pre></div></div>
-
-<p>Adding the above to <code class="highlighter-rouge">_config.yml</code> will assign the <code class="highlighter-rouge">single</code> layout and enable: <em>author profile</em>, <em>reading time</em>, <em>comments</em>, <a href="/docs/layouts/#social-sharing-links"><em>social sharing links</em></a>, and <em>related posts</em>, for all posts.</p>
-
-<p class="notice--info"><strong>ProTip:</strong> Remember to write unique <code class="highlighter-rouge">excerpt</code> descriptions for each post for improved SEO and archive listings.</p>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-        
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения:</strong> <time datetime="2018-03-20">March 20, 2018</time></p>
-        
-      </footer>
-
-      
-
-      
-  <nav class="pagination">
-    
-      <a href="/docs/layouts/" class="pagination--pager" title="Layouts
-">Предыдущая</a>
-    
-    
-      <a href="/docs/pages/" class="pagination--pager" title="Working with Pages
-">Следующая</a>
-    
-  </nav>
-
-    </div>
-
-    
-	
-	  
-  </article>
-
-	  
+  
   <div class="sidebar sticky">
   
   
@@ -561,7 +480,84 @@
   
   </div>
 
-  
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Working with Posts">
+    <meta itemprop="description" content="Suggestions and Front Matter defaults for working with posts.">
+    <meta itemprop="datePublished" content="June 06, 2019">
+    <meta itemprop="dateModified" content="March 20, 2018">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Working with Posts
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Posts are stored in the <code class="highlighter-rouge">_posts</code> directory and named according to the <code class="highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code> format as per <a href="https://jekyllrb.com/docs/posts/">the usual</a>.</p>
+
+<p>Where <code class="highlighter-rouge">YEAR</code> is a four-digit number, <code class="highlighter-rouge">MONTH</code> and <code class="highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. For example, the following are examples of valid post filenames:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2016-07-20-writing-jekyll-posts.md
+2015-01-03-static-site-generators.markdown
+</code></pre></div></div>
+
+<p><strong>Recommended Front Matter Defaults:</strong></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">defaults</span><span class="pi">:</span>
+  <span class="c1"># _posts</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">posts</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">layout</span><span class="pi">:</span> <span class="s">single</span>
+      <span class="na">author_profile</span><span class="pi">:</span> <span class="no">true</span>
+      <span class="na">read_time</span><span class="pi">:</span> <span class="no">true</span>
+      <span class="na">comments</span><span class="pi">:</span> <span class="no">true</span>
+      <span class="na">share</span><span class="pi">:</span> <span class="no">true</span>
+      <span class="na">related</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Adding the above to <code class="highlighter-rouge">_config.yml</code> will assign the <code class="highlighter-rouge">single</code> layout and enable: <em>author profile</em>, <em>reading time</em>, <em>comments</em>, <a href="/docs/layouts/#social-sharing-links"><em>social sharing links</em></a>, and <em>related posts</em>, for all posts.</p>
+
+<p class="notice--info"><strong>ProTip:</strong> Remember to write unique <code class="highlighter-rouge">excerpt</code> descriptions for each post for improved SEO and archive listings.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения:</strong> <time datetime="2018-03-20">March 20, 2018</time></p>
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/docs/layouts/" class="pagination--pager" title="Layouts
+">Предыдущая</a>
+    
+    
+      <a href="/docs/pages/" class="pagination--pager" title="Working with Pages
+">Следующая</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
   
   
 </div>
